@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Purr Data</title>
+	<link rel="stylesheet" href="stylesheet.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Spirax&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="menu">
+		<a rel="noopener" href="index.html"><img src="Images/PurrDataCat.png" alt="Home Icon"/></a>
+			<div class="dropdown">
+				<a rel="noopener" href="" class="options">Download</a>
+					<div class="dropdown-content">
+						<a rel="noopener" href="https://github.com/jonwwilkes/purr-data/releases">Windows and OSX</a>
+						<a rel="noopener" href="https://git.purrdata.net/users/sign_in#arch">Arch</a>
+						<a rel="noopener" href="https://git.purrdata.net/users/sign_in#debian">Debian</a>
+						<a rel="noopener" href="https://git.purrdata.net/users/sign_in#raspbian">Raspbian</a>
+						<a rel="noopener" href="https://git.purrdata.net/users/sign_in#ubuntu">Ubuntu</a>
+						<a rel="noopener" href="https://git.purrdata.net/users/sign_in#opensuse">openSUSE</a>
+					</div>
+			</div>
+			<div class="dropdown">
+				<a rel="noopener" href="" class="options">Documentation</a>
+					<div class="dropdown-content">
+					  <a rel="noopener" href="getting-started.html">Getting Started</a>
+					  <a rel="noopener" href="about-purr-data.html">About Purr Data</a>
+					</div>
+			</div>
+			<div class="dropdown">
+				<a rel="noopener" href="" class="options">Contact</a>
+					<div class="dropdown-content">
+						<a rel="noopener" href="https://disis.music.vt.edu/cgi-bin/mailman/listinfo/l2ork-dev">Mailing List</a>
+					</div>
+			</div>
+			<a rel="noopener" href="index.html"><img src="Images/Pure_Data_logo.svg.png" alt="Home Icon"/></a>
+	</div>
+	<div class="getstarted">
+		<h1 class="spirax">Getting Started</h1>
+			<p>Purr Data is the latest (2.x) branch of Ivica Ico Bukvic’s Pd-l2ork. Pd-l2ork in turn was a fork of Hans-Christoph Steiner’s Pd-extended, which has been the longest-running (and arguably the most popular) variant of Miller Puckette’s Pd. Pd a.k.a. Pure Data, the common basis of all these variants, is Miller Puckette’s interactive and graphical computer music and multimedia environment. Pd is also the premier open-source alternative to Cycling74’s well-known commercial Max program (whose original version was also developed by Miller Puckette when he was at IRCAM in the 1980s). There are a few other popular and very capable applications in the realm of computer music and media art, most notably Csound and SuperCollider. But Max and Pd’s special appeal is that you work in an intuitive graphical “patching” environment which allows you to put together advanced real-time signal processing applications without having to learn a “real” programming language.</p>
+		<h1 class="spirax">The Name</h1>
+			<p>Purr Data is the official nickname of the Pd-l2ork 2.x branch. To quote chief developer Jonathan Wilkes from his initial announcement on the Pd forum:
+				I’ve nicknamed it “Purr Data”, because cats.
+				Quite obviously the name is a play on “Pure Data” on which “Purr Data” is ultimately based. It also raises positive connotations of soothing purring sounds, and makes for a nice logo.
+				We also refer to Bukvic’s original Pd-l2ork version as Pd-l2ork 1.0 or “classic” Pd-l2ork. Note that Purr Data still clearly shows its Pd-l2ork heritage. It shares a lot of code with Pd-l2ork (essentially all the non-GUI parts), and the executable, library directory etc. are all still named after pd-l2ork as well.</p>
+		<h1 class="spirax">Where to Get It</h1>
+			<p>Jonathan Wilkes maintains the Purr Data sources in GitLab at <a rel="noopener" href="https://git.purrdata.net/jwilkes/purr-data">https://git.purrdata.net/jwilkes/purr-data</a>. There’s also a mirror of this repository at Github which serves as a one-stop shop for the latest source and the available releases, including pre-built packages for macOS and Windows. You can find this at <a rel="noopener" href="https://agraef.github.io/purr-data/">https://agraef.github.io/purr-data/</a>. The latest packages are available at <a rel="noopener" href="https://github.com/agraef/purr-data/releases">https://github.com/agraef/purr-data/releases</a>. The Mac and Windows packages should be self-contained. The Windows package is distributed as an installer executable (.exe file). Normally you can just run this package by double-clicking it in your file manager, and walk through the installation procedure. The Mac package is distributed as a disk image (.dmg file); double-clicking the disk image in Finder opens a new Finder window, in which you can drag the application to your Application folder.</p>
+		<h1 class="spirax">Configuration</h1>
+			<p>When you launch Purr Data for the first time, most likely you will have to configure some things, such as the audio and MIDI devices that you want to use. Like classic Pd-l2ork, Purr Data provides a central “Preferences” dialog which lets you do this in a convenient way.</p>
+		<h1 class="spirax">Getting Help</h1>
+			<p>The best way for new users to learn how to use Purr Data, and Pd in general, is its excellent integrated help system. This is really one of the hallmark features of the Pd program, no matter which flavor you use. Purr Data’s help system offers hundreds of help patches covering many different areas, and these help patches are not just documentation, they are real Pd patches which you can run to try them out, and then copy and paste relevant parts to your own patches.</p>
+		<h1 class="spirax">Tips and Tricks</h1>
+			<p>We conclude this introduction with a little grab bag of helpful tips and tricks. If your questions aren’t answered here, please post them to the <a rel="noopener" href="http://disis.music.vt.edu/listinfo/l2ork-dev">DISIS Pd-l2ork mailing list</a>.</p>
+	</div>
+	<script type="module" src="https://s.brightspace.com/lib/bsi/2024.6.211/unbundled/mathjax.js"></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
+					if (document.querySelector('math') || /\$\$|\\\(|\\\[|\\begin{|\\ref{|\\eqref{/.test(document.body.innerHTML)) {
+						document.querySelectorAll('mspace[linebreak="newline"]').forEach(elm => {
+							elm.setAttribute('style', 'display: block; height: 0.5rem;');
+						});
+
+						window.D2L.MathJax.loadMathJax({
+							outputScale: 1.5,
+							renderLatex: true,
+							enableMML3Support: false
+						});
+					}
+				});</script><script type="module" src="https://s.brightspace.com/lib/bsi/2024.6.211/unbundled/prism.js"></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
+					document.querySelectorAll('.d2l-code').forEach(code => {
+						window.D2L.Prism.formatCodeElement(code);
+					});
+				});</script><script type="module" src="https://s.brightspace.com/lib/bsi/2024.6.211/unbundled/embeds.js"></script><script type="text/javascript">document.addEventListener('DOMContentLoaded', function() {
+					window.D2L.EmbedRenderer.renderEmbeds(document.body);
+				});
+	</script>
+</body>
+</html>
